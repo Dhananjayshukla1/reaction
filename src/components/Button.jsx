@@ -1,12 +1,13 @@
-import React from 'react'
-// import './components/Button.css'
+import React,{useState} from 'react'
 import './Button.css'
 
+
 function Button() {
+  const [title,setA]=useState("Hire Me")
   return (
-    <div>
-    <div onClick={()=>{alert("hey")}} className="btn-p" id="btn">Hire Me</div>
-    </div>
+   
+    <div onClick={()=>{setA("hi")}} className='btn-p' id='btn'>{title}</div>
+  
   )
 }
 

@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from './Button';
+import NewBtn from './NewBtn';
 
 
 function Card() {
@@ -20,7 +21,7 @@ function Card() {
          <div className='w-full h-full  bg-slate-50 py-4 px-3'>
            <h1 className='font-semibold'>{value.name}</h1>
          <p>{value.description}</p>
-         <Button></Button>
+        <Button></Button>
          </div>
 
       </div> 
