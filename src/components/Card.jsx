@@ -1,4 +1,6 @@
 import React from 'react'
+import Button from './Button';
+
 
 function Card() {
   const data=[{img:'https://images.unsplash.com/photo-1649734926695-1b1664e98842?q=80&w=2062&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
@@ -10,18 +12,19 @@ function Card() {
   return (
     <div className='w-full h-screen bg-zinc-300 flex justify-center items-center gap-5 flex-wrap'>
      
-     { data.map((value,index)=>(<div key={index} className='w-52  h-56 overflow-hidden   bg-zinc-200 rounded-xl'> 
-     <div className='h-32 ' >
+     { data.map((value,index)=>(
+       <div key={index} className='w-52   overflow-hidden   bg-zinc-200 rounded-xl'> 
+          <div className='h-32 ' >
          <img className='w-full object-cover  h-full' src={value.img}/>
-     </div>
-     <div className='w-full h-full  bg-slate-50 py-4 px-3'>
-     <h1 className='font-semibold'>{value.name}
-     </h1>
-     <p>{value.description}
-     </p>
-     </div>
+          </div>
+         <div className='w-full h-full  bg-slate-50 py-4 px-3'>
+           <h1 className='font-semibold'>{value.name}</h1>
+         <p>{value.description}</p>
+         <Button></Button>
+         </div>
 
-</div>))}
+      </div> 
+       ))}
 
       
        
