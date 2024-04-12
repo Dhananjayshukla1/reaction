@@ -5,7 +5,19 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        mycolor: "rgb(255, 69, 0)",
+        co:"rgb(95, 70, 218)"
+    },
+    borderColor:{
+      mycolor: "rgb(255, 69, 0)",
+      co:"rgb(95, 70, 218)"
+    },
+    backgroundColor:{
+      mycolor: "rgb(255, 69, 0)",
+    }
+    },
   },
   plugins: [],
 }

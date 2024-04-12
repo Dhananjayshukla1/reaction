@@ -3,11 +3,12 @@ import './Button.css'
 
 
 function Button() {
-  const [title,setA]=useState("Hire Me")
+
+  const [title,setA]=useState(false)
   return (
-   
-    <div onClick={()=>{setA("hi")}} className='btn-p' id='btn'>{title}</div>
-  
+   <>
+    <div onClick={()=>{setA(!title)}} className={`btn-p text-white bg-mycolor `} id='btn'>{title?"Yes":"no"}</div>
+  </>
   )
 }
 

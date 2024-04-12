@@ -1,9 +1,10 @@
 #btn{
     border-radius: 90px;
     margin-top: 1em;
-    background-color: orangered;
+    /* background-color: rgb(255, 69, 0);
+    background-color: rgb(95, 70, 218); */
     width: fit-content;
-    color: white;
+    /* color: white; */
     padding: 0.1rem 1rem;
     box-shadow: 5px 5px 7px 0px #0000003f;
     font-size: 18px;
