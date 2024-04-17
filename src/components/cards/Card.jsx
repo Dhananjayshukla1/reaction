@@ -1,9 +1,7 @@
 import React from 'react'
 import Button from './Button';
-import NewBtn from './NewBtn';
 
-
-function Card() {
+const Card= () =>{
   const data=[{img:'https://images.unsplash.com/photo-1649734926695-1b1664e98842?q=80&w=2062&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
     ,name:"Amazon Web Services",description:"oipsum dolor sit amet,"},{img:'https://images.unsplash.com/photo-1653389527532-884074ac1c65?q=80&w=2062&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
     ,name:"Swiggy ",description:"consectetur adsum dol"},{img:'https://images.unsplash.com/photo-1625138644438-47f3b3c66880?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'

@@ -1,12 +1,14 @@
-import React, { useState } from 'react'
-import Card from './components/Card'
-import Newcard from './components/Newcard'
+import React from 'react'
+import { Navs } from './components/Navs'
+import Routing from './components/Routing'
 
 function App() {
  
   return (
-    <>
-   <Card></Card>
+    < >
+  
+    <Navs></Navs>
+    <Routing></Routing>
     </>
   )
 }
